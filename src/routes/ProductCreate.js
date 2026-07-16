@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './ProductCreate.css';
 
-const BASE_URL = "http://localhost:8000/"
+const BASE_URL = "https://fastapi-warehouse-services.onrender.com/"
 
 export const ProductsCreate =() =>{
     const [name,setName] = useState('')

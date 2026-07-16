@@ -2,7 +2,7 @@ import { useEffect,useState } from "react";
 import './Products.css'
 import { Link } from "react-router-dom";
 
-const BASE_URL = "http://localhost:8000/"
+const BASE_URL = "https://fastapi-warehouse-services.onrender.com/"
 
 export const Products =()=> {   //function variable ,other files can use it
     const [products,setProducts] =useState([])

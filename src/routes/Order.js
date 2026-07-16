@@ -1,7 +1,7 @@
 import { useEffect,useState } from "react";
 
-const PRODUCTS_URL = "http://localhost:8000/"
-const ORDERS_URL = "http://localhost:8001/"
+const PRODUCTS_URL = "https://fastapi-warehouse-services.onrender.com/"
+const ORDERS_URL = "https://fastapi-store-services.onrender.com/"
 
 export const Order =()=>{
     const [id,setId]=useState('')
