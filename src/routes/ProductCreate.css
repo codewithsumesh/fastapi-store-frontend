@@ -1,0 +1,9 @@
+.new_product{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.new_product_title{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
